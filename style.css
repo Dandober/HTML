@@ -1,0 +1,178 @@
+
+* {
+    margin: auto;
+    border: auto;
+
+}
+
+body{
+    padding: 0;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 90px;
+    background-color: black;
+    color: white
+}
+
+section #tabela{
+    width: 70%;
+}
+
+#menu {
+    display: block;
+    z-index: 100;
+    float: left;
+    width: 15%;
+    height: 70%;
+    background-color: darkgrey;
+    list-style-type: circle;
+    display: inline-grid;
+
+}
+
+
+#grid {
+    background-color: blueviolet;
+    text-align: justify;
+    display: inline-grid;
+    grid-template-columns: auto;
+    display: inline-grid;
+    display: inline-table;
+    display: subgrid;
+      
+}
+
+section {
+    background-color: #c2b2c3;
+    height: 70%;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: justify;
+}
+
+article {
+    padding: 200px;
+    display: block;
+    float: right;
+    background-color: beige;
+
+}
+
+.p {}
+
+#London {
+    width: 50%;
+    margin: 110px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 168px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 168px;
+    text-align: center;
+    transition: transform 3.0s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 168px;
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+}
+#aulas {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+#aulas td, #aulas th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#aulas tr:nth-child(even) {
+    background-color: beige;
+}
+#aulas tr:hover {
+    background-color: antiquewhite;
+}
+
+#aulas th {
+    padding-top: 5px;
+  padding-bottom: 7px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#botao:hover {
+    color: aqua;
+}
+
+footer {
+    display: block;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+    align-items: baseline;
+    background-color: black;
+    text-align: center
+}
